@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFFFFFFF</color>
+    <color name="purple_500">#FFFFFFFF</color>
+    <color name="purple_700">#FFFFFFFF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="back_giris">#211BC1</color>
+    <color name="view">#202020</color>
+    <color name="petrol_yesili">#3205650F</color>
+    <color name="ekru_rengi">#6051EC40</color>
+    <color name="ekru_rengi2">#5251E80F</color>
+    <color name="ekru_rengi3">#9E000000</color>
+
+</resources>

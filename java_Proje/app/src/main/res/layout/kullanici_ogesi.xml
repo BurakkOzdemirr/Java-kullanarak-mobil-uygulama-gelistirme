@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profil_resmi_oge"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:layout_toEndOf="@+id/profil_resmi_oge"
+        android:orientation="vertical"
+        android:layout_marginStart="5dp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/profil_resmi_oge"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:text="kullanici adi"
+            android:id="@+id/txt_kulaniciadi_oge"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txt_ad_oge"
+            android:text="Normal ad"
+            android:maxLines="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_takipet_oge"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:backgroundTint="@android:color/transparent"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Takip et"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        app:backgroundTint="#FFFFFF"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>
